@@ -5,4 +5,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  corePlugins: { //MantineとTailwindの相性問題解決用
+    preflight: false,
+  },
 }

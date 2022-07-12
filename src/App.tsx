@@ -26,6 +26,7 @@ function App() {
         表示
       </button>
       <ChileArea open={open} />
+      <button>こんにちは</button>
     </div>
   );
 }
